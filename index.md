@@ -186,7 +186,7 @@ This allows the embedded code to access stdin/stdout and files on the host compu
 Link with `--specs=rdimon.specs -lrdimon`, or in ChibiOS update your Makefile:
 ```
 # user libraries
-ULIBS += --specs=rdimon.specs -lrdimon```
+ULIBS += --specs=rdimon.specs -lrdimon
 ```
 
 Then in your `main.c` add this prototype:
